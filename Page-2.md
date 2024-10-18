@@ -21,7 +21,8 @@ Here :
 Basc Commands to user Linux terminal is given as follows:
 ### Keyboard Shortcuts
 
-<div align=center>
+
+
 
 |   Commands   |                                                                                                                                    Action                                                                                                                                   |
 |:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -35,11 +36,11 @@ Basc Commands to user Linux terminal is given as follows:
 | Ctrl+z       | To suspend the current command.                                                                                                                                                                                                                                             |
 | Ctrl+D       | Send “End-of-File” to the application. This will quit the terminal when on an empty command line and can be used to close SSH connections or exit from any subshells. It can also be used to clear the screen.                                                         |
 
-</div>
+
 
 ### Working With Files and Directories
 
-<div align=center>
+
 
 |                 Commands                 |                                                                             Action                                                                            |
 |:----------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -57,11 +58,10 @@ Basc Commands to user Linux terminal is given as follows:
 | gzip file1 file2                          | Compress the files into a zipped folder.                                                                                                                      |
 | gunzip file1 file2                        | Unzip files from a zipped folder.                                                                                                                              |
 
-</div>
 
 ### Linux Networking Commands
 
-<div align=center>
+
 
 |               Commands               |                                    Action                                   |
 |:------------------------------------:|:---------------------------------------------------------------------------:|
@@ -71,11 +71,8 @@ Basc Commands to user Linux terminal is given as follows:
 | ping <ip_address>                  | Check the connectivity between two nodes.                                   |
 | host domain_name or ip_address      | Display the IP address for a given domain name and vice versa.              |
 
-</div>
-
 ### Linux Utility Commands
 
-<div align=center>
 
 |                         Commands                        |                                                                                                                                                                 Action                                                                                                                                                                |
 |:-------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -84,7 +81,5 @@ Basc Commands to user Linux terminal is given as follows:
 | df                                                      | Display the disk space used in the file system.                                                                                                                                                                                                                                                                                     |
 | top or htop                                             | Display all currently running tasks, including users, tasks, CPU load, and memory usage.                                                                                                                    |
 | mpstat                                                  | Display usage for each processor.                                                                                                                                                                         |
-
-</div>
 
 
