@@ -6,7 +6,7 @@ title: "DOP HPC Cluster"
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  This site provides user documentation for the HPC cluster at the Department of Physics, Cochin University of Science and Technology. 
+  Documentation for using the HPC cluster facility at the Department of Physics, Cochin University of Science and Technology, India. 
   It covers basic Linux commands, SLURM job management, and parallel programming using Python, enabling users to effectively utilize the cluster's resources.
 
 
