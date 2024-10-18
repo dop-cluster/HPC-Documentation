@@ -2,9 +2,9 @@
 
 Kuria cluster uses Rocky Linux as its operating system, which the user can access through the command prompt (CLI). While logging in to the cluster, the CLI would appear as follows:
 
-<figure style="text-align: center;">
+<figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/CLI.png"
-         alt="CLI" style="width:20%" >
+         alt="CLI" style="width:30%" >
     <figcaption>  figure: Command Line Interface
 </figcaption></figure>
 

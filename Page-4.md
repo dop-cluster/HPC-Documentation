@@ -7,9 +7,9 @@ SLURM is composed of 4 components:
 2. **slurmd** (Node Daemon) - Worker Daemon that runs on each compute node in the cluster. Responsible for launching jobs on the node, communicating with a central controller, job execution and resource allocation.
 3. **slurmbd** (Database Daemon) - Manage storage and retrieval of information related to user accounts during job submissions, user and group usage and historical job data.
 4. **User commands** - Commands that users and administrators use to submit, manage and monitor jobs, as well as configure the cluster.
-<figure style="text-align: center;">
+<figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/slurm.gif"
-         alt="CLI" style="width:40%" >
+         alt="CLI" style="width:60%" >
     <figcaption> 
  Figure: Command Line Interface 
 (<a href="https://slurm.schedmd.com/quickstart.html" target="_blank">source</a>)
