@@ -11,6 +11,12 @@ description: >
   in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
