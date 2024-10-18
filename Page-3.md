@@ -7,7 +7,6 @@ To connect to a remote server or cluster, you can use the following command:
 ```
 # Connecting to cluster using SSH
 ssh username@remote_server_ip
-
 ```
 
 SSH also supports X11 forwarding, allowing you to run graphical applications remotely while displaying their graphical user interface (GUI) on your local machine. Here's how to enable X11 forwarding:
@@ -19,8 +18,6 @@ ssh -X username@remote_server_ip
 
 # Trusted x11 forwarding
 ssh -Y username@remote_server
-
-
 ```
 
 # Sending Files to and From Cluster
@@ -47,7 +44,6 @@ scp -r /path/to/local/directory username@remote_host:/path/to/remote/directory
 
 # copy a file from one remote system to another remote system
 scp username1@remote_host1:/path/to/remote/file username2@remote_host2:/path/to/remote/directory
-
 ```
 
 ### SFTP (Secure File Transfer Protocol)
@@ -123,7 +119,6 @@ Below the list of different environment modules that are currently available in 
   Where:
    D:  Default Module
    L:  Module is loaded
-
 ```
 In the Kuria cluster, modules are organized into various categories, including Compilers, Languages, Libraries, and Software. Each category encompasses specific versions of tools, programming languages, and libraries tailored to different tasks and applications. When a module is loaded, the user environment is dynamically modified, allowing applications to run smoothly without conflicts. Here are some essential commands to manage modules:
 
@@ -148,6 +143,4 @@ module show Languages/python/3.12.1
 
 # Searching for Modules
 module spider <keyword>
-
-
 ```

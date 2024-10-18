@@ -28,9 +28,7 @@ if __name__ == "__main__":
     with multiprocessing.Pool(processes=4) as pool: # creates 4 process
         results = pool.map(fib, range(40))
         for i, result in enumerate(results):
-            print(f"fib({i}) = {result}")
-		
-		
+            print(f"fib({i}) = {result}")		
 ```
 
 <!-- The Python script is saved as `job.py`. Now, you'll need to create a job submission script (slurm script) that requests the necessary resources and runs the `job.py` script. Let us create a job submission script named `slurm_script.sh`. -->
@@ -61,8 +59,6 @@ module load Languages/python/3.12.1  # Adjust Python version as needed
 
 # Run the Python script using srun
 srun python3 job.py
-
-
 ```
 In this script:
 
@@ -78,10 +74,7 @@ In this script:
 Once the SLURM script is ready, you can submit the job to the SLURM scheduler with the following command:
 
 ```
-
 sbatch slurm_script.sh
-
-
 ```
 
 This command submits the job to the cluster, and SLURM will schedule it for execution based on the available resources. The output of the job will be stored in the file `parallel_job_<job_id>.out`, where `<job_id>` is the job identifier assigned by SLURM.
@@ -158,8 +151,6 @@ module load MPI/OpenMPI/4.1.1             # Load MPI module (adjust version as n
 
 # Run the Python script using mpirun
 mpirun -np 4 python3 mpi_fib.py
-
-
 ```
 In this script:
 
@@ -171,7 +162,6 @@ In this script:
 Submit the job to SLURM using the following command:
 ```
 sbatch slurm_mpi_fib.sh
-
 ```
 
 This will distribute the calculation of the Fibonacci numbers across the 4 processes. Each process computes a subset of the numbers in parallel, and the results are gathered at the root process.

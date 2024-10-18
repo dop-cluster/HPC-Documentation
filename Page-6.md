@@ -14,7 +14,7 @@ Common Libraries that supports multithreading are:
 * **Threading** module in Pthon.
 *  **Multiprocessing** module in Python.
 <figure style="text-align: center;">
-    <img src="./_resources/concept_of_threads.png"
+    <img src="./images/concept_of_threads.png"
          alt="slurm components" style="width:40%" >
     <figcaption>  Figure: Concept of threads
 		<a href="https://www.geeksforgeeks.org/multithreading-python-set-1/" target="_blank"> (source) </a> 

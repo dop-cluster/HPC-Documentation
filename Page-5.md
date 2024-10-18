@@ -36,7 +36,6 @@ Once you’ve written your job script, use the sbatch command to submit it to th
 
 ```
 sbatch my_job_script.sh
-
 ```
 SLURM will queue the job and execute it when resources become available.
 

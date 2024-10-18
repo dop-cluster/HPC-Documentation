@@ -3,12 +3,10 @@
 Kuria cluster uses Rocky Linux as its operating system, which the user can access through the command prompt (CLI). While logging in to the cluster, the CLI would appear as follows:
 
 <figure style="text-align: center;">
-    <img src="./_resources/CLI.png"
+    <img src="./images/CLI.png"
          alt="CLI" style="width:20%" >
     <figcaption>  figure: Command Line Interface
 </figcaption></figure>
-
-
 
 
 Here : 
@@ -22,8 +20,6 @@ Basc Commands to user Linux terminal is given as follows:
 ### Keyboard Shortcuts
 
 
-
-
 |   Commands   |                                                                                                                                    Action                                                                                                                                   |
 |:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | Enter Key    | To run a command.                                                                                                                                                                                                                                                           |
@@ -35,7 +31,6 @@ Basc Commands to user Linux terminal is given as follows:
 | Ctrl+c       | To stop the current command.                                                                                                                                                                                                                                                |
 | Ctrl+z       | To suspend the current command.                                                                                                                                                                                                                                             |
 | Ctrl+D       | Send “End-of-File” to the application. This will quit the terminal when on an empty command line and can be used to close SSH connections or exit from any subshells. It can also be used to clear the screen.                                                         |
-
 
 
 ### Working With Files and Directories

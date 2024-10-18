@@ -8,7 +8,7 @@ SLURM is composed of 4 components:
 3. **slurmbd** (Database Daemon) - Manage storage and retrieval of information related to user accounts during job submissions, user and group usage and historical job data.
 4. **User commands** - Commands that users and administrators use to submit, manage and monitor jobs, as well as configure the cluster.
 <figure style="text-align: center;">
-    <img src="./_resources/slurm.gif"
+    <img src="./images/slurm.gif"
          alt="CLI" style="width:40%" >
     <figcaption> 
  Figure: Command Line Interface 
