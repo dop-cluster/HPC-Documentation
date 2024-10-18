@@ -23,10 +23,11 @@ plugins:
 
 theme: Minima
 minima: 
- skin: auto
+ skin: dark
 
 social_links:
-  - { platform: github,  user_url: "https://github.com/jekyll/minima" }
+  - platform: github
+    user_url: "https://github.com/jekyll/minima"
   
 markdown: GFM
 
