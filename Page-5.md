@@ -1,4 +1,4 @@
-# Submitting a Job to the Cluster
+# Submitting Job to the Cluster
 
 When using a cluster, jobs can be submitted in two main ways: as batch jobs or interactive jobs. In the following sections, we are going to discuss about both modes, their differences, and how to submit jobs effectively.
 
@@ -90,6 +90,7 @@ srun --ntasks=1 --cpus-per-task=4 --mem=8G --time=02:00:00 --partition=general -
 - ```bash```: This runs an interactive shell (you can also use other shells like ```sh``` or ```zsh```).
 
 > **NOTE** 
+>
 > One can also use srun command without --pty option to directly run commands in the compute node
 > ```srun --ntasks=1 --cpus-per-task=4 --mem=8G --time=02:00:00 --partition=general python3 my_script.py```
 > 

@@ -1,6 +1,6 @@
-# Introduction to Parallel Programming
+# Parallel Programming 101
 
-Parallel programming involves dividing a computational task into smaller sub-tasks that can be executed simultaneously, thereby reducing the overall execution time. This approach is particularly beneficial in High-Performance Computing (HPC) environments, where large-scale computations are common.
+Parallel programming involves dividing a computational task into smaller sub-tasks that can be executed simultaneously, thereby reducing the overall execution time. This approach is particularly beneficial in HPC environments, where large-scale computations are common.
 
 There are mainly two models of parallel computing:
 

@@ -20,7 +20,7 @@ ssh -X username@remote_server_ip
 ssh -Y username@remote_server
 ```
 
-# Sending Files to and From Cluster
+## Sending Files to and From Cluster
 
 ### SCP (Secure Copy)
 
@@ -80,7 +80,7 @@ sftp> bye
 
  Most systems have built-in SFTP support via the command line. You can also use graphical SFTP clients like **FileZilla** or **WinSCP**.
  
- # Environment Modules
+## Environment Modules
 
 Managing dependencies in a cluster environment is crucial for ensuring that applications run smoothly and consistently across various compute nodes. In DOP-HPC cluster we uses environment modules to manage the dependencies.
 

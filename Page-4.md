@@ -1,4 +1,4 @@
-# SLURM Basics
+# SLURM 101
 
 Simple Linux Utility for Resource Management (SLURM) is an open-source job scheduler designed to manage and allocate resources in HPC clusters. It helps distribute computational workloads efficiently across nodes in a cluster by managing job queuing, resource allocation, and job execution.
 

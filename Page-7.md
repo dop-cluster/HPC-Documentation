@@ -1,5 +1,5 @@
 # Parallel Programming in HPC clusters
-In the realm of high-performance computing (HPC), the efficient utilization of multi-core processors is essential for accelerating computational tasks and optimizing resource usage. As scientific and engineering applications increasingly demand greater processing power, parallel programming emerges as a critical solution to enhance performance and reduce runtime. By leveraging threading and message passing, developers can distribute workloads across multiple CPU cores or nodes, enabling simultaneous execution of tasks. This approach not only improves computational efficiency but also facilitates the handling of complex problems that would otherwise be intractable in a sequential environment. This document outlines the techniques for submitting threaded jobs using Python's multiprocessing module and implementing distributed computing with the Message Passing Interface (MPI) using mpi4py, providing practical examples and SLURM job submission scripts to help you effectively run parallel jobs on HPC clusters.
+In the realm of high-performance computing, the efficient utilization of multi-core processors is essential for accelerating computational tasks and optimizing resource usage. As scientific and engineering applications increasingly demand greater processing power, parallel programming emerges as a critical solution to enhance performance and reduce runtime. By leveraging threading and message passing, developers can distribute workloads across multiple CPU cores or nodes, enabling simultaneous execution of tasks. This approach not only improves computational efficiency but also facilitates the handling of complex problems that would otherwise be intractable in a sequential environment. This document outlines the techniques for submitting threaded jobs using Python's multiprocessing module and implementing distributed computing with the Message Passing Interface (MPI) using mpi4py, providing practical examples and SLURM job submission scripts to help you effectively run parallel jobs on HPC clusters.
 
 ## Submitting Threaded Jobs to the Cluster
 
@@ -8,7 +8,7 @@ In the realm of high-performance computing (HPC), the efficient utilization of m
 One common way to achieve parallelism in Python is through the `multiprocessing` module, which enables parallel execution of functions across multiple CPU cores. This is useful for CPU-bound tasks, where you want to divide work and compute results simultaneously across different cores of the same node. 
 Let’s consider an example where we want to submit a Python script that tries to find the Fibonacci series, and it is using `multiprocessing` module to speed up the computation.-->
 
-In high-performance computing (HPC), efficiently utilizing multi-core processors is crucial for reducing runtime and improving the performance of scientific and computational workloads. Many tasks, such as simulations, data processing, and mathematical computations, can benefit from running multiple tasks concurrently using threading. The goal of submitting a threaded job is to distribute the workload across the cores available on a node, ensuring better resource utilization and faster execution.
+In HPC, efficiently utilizing multi-core processors is crucial for reducing runtime and improving the performance of scientific and computational workloads. Many tasks, such as simulations, data processing, and mathematical computations, can benefit from running multiple tasks concurrently using threading. The goal of submitting a threaded job is to distribute the workload across the cores available on a node, ensuring better resource utilization and faster execution.
 
 Python offers several ways to implement parallelism, one of which is the multiprocessing module. This module allows parallel execution of functions across multiple CPU cores, making it particularly useful for CPU-bound tasks where computations need to be divided across different cores to achieve higher efficiency.
 
@@ -81,9 +81,9 @@ This command submits the job to the cluster, and SLURM will schedule it for exec
 
 ## Submitting MPI Jobs to the Cluster
 
-In high-performance computing (HPC), Message Passing Interface (MPI) is widely used to enable communication between multiple processes running on different nodes or cores. MPI is particularly useful for large-scale distributed computing tasks where processes need to exchange data frequently. Python’s mpi4py library provides bindings for MPI, allowing you to write parallel programs in Python that can run on multiple nodes and communicate with each other using MPI primitives.
+In high-performance computing, MPI is widely used to enable communication between multiple processes running on different nodes or cores. MPI is particularly useful for large-scale distributed computing tasks where processes need to exchange data frequently. Python’s mpi4py library provides bindings for MPI, allowing you to write parallel programs in Python that can run on multiple nodes and communicate with each other using MPI primitives.
 
-To demonstrate how to use MPI (Message Passing Interface) with Python using the mpi4py module to compute the Fibonacci series, we will break down the task into smaller pieces that can be executed in parallel across multiple processes.
+To demonstrate how to use MPI with Python using the mpi4py module to compute the Fibonacci series, we will break down the task into smaller pieces that can be executed in parallel across multiple processes.
 
 ### Example: Using `mpi4py` for Fibonacci Numbers
 

@@ -1,6 +1,6 @@
 
 
-A **High-Performance Computing (HPC) cluster** consists of multiple high-speed computer servers networked together via a fast interconnect. This architecture allows for parallel computing workloads managed by a centralized scheduler. The typical components of an HPC cluster include:
+An **High-Performance Computing (HPC) cluster** consists of multiple high-speed computer servers networked together via a fast interconnect. This architecture allows for parallel computing workloads managed by a centralized scheduler. The typical components of an HPC cluster include:
 
 ## Components of an HPC Cluster
 
