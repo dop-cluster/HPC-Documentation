@@ -21,13 +21,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-theme: Minima
-minima: 
- skin: dark
+# Additional configuration for SEO tags
+seo:
+  title: High Peformance Computer Cluster Documentation
+  description: Provides documentation of using DOP-HPC cluster for calculations. Provides introduction to do parallel programming with python using multiprocessing and mpi4py module.
+  url: https://navmohan-24.github.io/HPC-Documentation/
+  Github:
+    username: NavMohan-24
 
-social_links:
-  - platform: github
-    user_url: "https://github.com/jekyll/minima"
+theme: minima
+minima: 
+ skin: auto
+
   
 markdown: GFM
 
