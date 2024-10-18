@@ -37,7 +37,7 @@ Kuria Cluster is a high-performance computing cluster with a capacity of 40 tera
 
 <figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/schematics_of_kuria_cluster.png"
-         alt="CLI" style="width:35%" >
+         alt="CLI" style="width: 35%; height: auto;" >
     <figcaption style="text-align: center;">Figure: Schematics of Kuria Cluster</figcaption>
 </figure>
 
