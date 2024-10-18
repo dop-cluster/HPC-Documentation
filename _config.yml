@@ -28,5 +28,5 @@ minima:
 social_links:
   - { platform: github,  user_url: "https://github.com/jekyll/minima" }
   
-markdown: kramdown
+markdown: GFM
 
