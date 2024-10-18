@@ -1,4 +1,4 @@
-# Overview of an HPC Cluster Architecture
+
 
 A **High-Performance Computing (HPC) cluster** consists of multiple high-speed computer servers networked together via a fast interconnect. This architecture allows for parallel computing workloads managed by a centralized scheduler. The typical components of an HPC cluster include:
 
@@ -41,6 +41,11 @@ Kuria Cluster is a high-performance computing cluster with a capacity of 40 tera
     <figcaption>  Figure: Schematics of Kuria Cluster
 </figcaption></figure>
 
+![image](./_resources/schematics_of_kuria_cluster.png)
+
+
+
+
 
 
 ## Resource Specifications
@@ -58,10 +63,9 @@ The resource specifications of the Kuria Cluster are as follows:
 | **Dell EMC S5212F-ON Switch (Secondary Interconnect Switch – Standby)**                           | 15 ports (12 x 25GbE SFP28 + 3 x 100GbE QSFP28)     |
 | **NFS-Based Storage (Dell ME5012)**                                                                | 123.84 TB (10 x 12TB NLSAS + 2 x 1.92TB SSD)         |
 
-<div align="center">  
 
 ### Virtual Machine Nodes
-</div>
+
 
 | Component                     | Details                                                              |
 |-------------------------------|----------------------------------------------------------------------|
@@ -69,11 +73,9 @@ The resource specifications of the Kuria Cluster are as follows:
 | **Test Nodes (2 nodes)**      | 32 CPU cores (total)                                               |
 | **Data Transfer Node (1 node)**| 8 CPU cores                                                         |
 | **Aggregate CPU Cores from VMs**| 40 CPU cores                                                       |
-
-<div align="center">  
+  
 
 ### Compute Node Resources
-</div>
 
 | Component                  | Specification                                                                              |
 |----------------------------|--------------------------------------------------------------------------------------------|
@@ -86,11 +88,9 @@ The resource specifications of the Kuria Cluster are as follows:
 | **GPU Memory**             | Nil                                                                                        |
 | **Total No. of GPUs per node** | 0                                                                                      |
 | **Network**                | Broadcom 57414 Dual Port 10/25GbE & Broadcom 5720 Dual Port 1GbE (additional network card) |
-
-<div align="center">  
+ 
 
 ### GPU Node Resources
-</div>
 
 | Component                  | Specification                                                              |
 |----------------------------|----------------------------------------------------------------------------|
