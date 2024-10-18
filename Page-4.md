@@ -29,7 +29,7 @@ Users can interact with SLURM using following commands:
 Another important SLURM command is `scontrol`, which is primarily used for administrative tasks. It allows administrators to manage and configure jobs, nodes, partitions, and SLURM daemons. Through scontrol, administrators can modify job parameters, change node states, and query system configurations. More details about the important SLURM commands are at the [official slurm website](https://slurm.schedmd.com/pdfs/summary.pdf).
 
 ## SLURM Partitions & User Types
-SLURM Partitions are the logical grouping of computing nodes that allows for different access policies, resource limits & priority settings. Each partition is configured with specific node access and time limits, enabling efficient resource management. Below is the summary of the SLURM partitons available in the Kuria cluster:
+SLURM Partitions are the logical grouping of computing nodes that allows for different access policies, resource limits & priority settings. Each partition is configured with specific node access and time limits, enabling efficient resource management. Below is the summary of the SLURM partitons available in the DOP-HPC cluster:
 
 | Name of Partition              | Time Limit | Node Access |
 |--------------------------------|------------|-------------|
@@ -40,7 +40,7 @@ SLURM Partitions are the logical grouping of computing nodes that allows for dif
 | faculty                        | 14 days    | Nodes 01-11 |
 | phd                            | 7 days     | Nodes 01-11 |
 
-There are three types of users in the Kuria Cluster: Faculty User, PhD User and Student User. Each user type has access to different SLURM partitions and specific resource limitations. 
+There are three types of users in the DOP-HPC Cluster: Faculty User, PhD User and Student User. Each user type has access to different SLURM partitions and specific resource limitations. 
 
 | User-type |     Partitions available     | Storage Limit |
 |:---------:|:----------------------------:|:-------------:|

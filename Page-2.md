@@ -1,6 +1,6 @@
 ### Basics of Linux
 
-Kuria cluster uses Rocky Linux as its operating system, which the user can access through the command prompt (CLI). While logging in to the cluster, the CLI would appear as follows:
+DOP-HPC cluster uses Rocky Linux as its operating system, which the user can access through the command prompt (CLI). While logging in to the cluster, the CLI would appear as follows:
 
 <figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/CLI.png"

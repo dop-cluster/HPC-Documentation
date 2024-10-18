@@ -31,27 +31,27 @@ A **High-Performance Computing (HPC) cluster** consists of multiple high-speed c
 5. **Network**:
    - The cluster is connected through a high-speed interconnect, enabling efficient data transfer between nodes during computations. **InfiniBand** is a common high-speed network standard used in many HPC clusters. An **InfiniBand switch** manages the routing and switching of data packets, facilitating high-speed communication across the nodes.
 
-# Kuria Cluster
+# DOP-HPC Cluster
 
-Kuria Cluster is a high-performance computing cluster with a capacity of 40 teraFLOPS, hosted in the [Department of Physics, CUSAT](https://physics.cusat.ac.in/).
+DOP-HPC Cluster is a high-performance computing cluster with a capacity of 40 teraFLOPS, hosted in the [Department of Physics, CUSAT](https://physics.cusat.ac.in/).
 
 <figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/schematics_of_kuria_cluster.png"
          alt="CLI" style="width: 35%; height: auto;" >
-    <figcaption style="text-align: center;">Figure: Schematics of Kuria Cluster</figcaption>
+    <figcaption style="text-align: center;">Figure: Schematics of DOP-HPC Cluster</figcaption>
 </figure>
 
 <!-- <div style="text-align: center;">
   <figure>
-    <img src="./images/schematics_of_kuria_cluster.png" alt="CLI" style="width:35%">
-    <figcaption>Figure: Schematics of Kuria Cluster</figcaption>
+    <img src="./images/schematics_of_DOP-HPC_cluster.png" alt="CLI" style="width:35%">
+    <figcaption>Figure: Schematics of DOP-HPC Cluster</figcaption>
   </figure>
 </div> -->
 
 
 ## Resource Specifications
 
-The resource specifications of the Kuria Cluster are as follows:
+The resource specifications of the DOP-HPC Cluster are as follows:
 
 | Resource                                                                                           | Details                                               |
 |----------------------------------------------------------------------------------------------------|------------------------------------------------------|
@@ -105,10 +105,10 @@ The resource specifications of the Kuria Cluster are as follows:
 | **Total No. of GPUs per node** | 2                                                                          |
 | **Network**                | Broadcom 57414 Dual Port 10/25GbE                                          |
 
-## Software Stack of Kuria Cluster
+## Software Stack of DOP-HPC Cluster
 
 <figure style="text-align: center;">
     <img src="./images/software%20stack.png"
          alt="CLI" style="width:100%" >
-    <figcaption>  Figure: Software Stack of Kuria Cluster
+    <figcaption>  Figure: Software Stack of DOP-HPC Cluster
 </figcaption></figure>

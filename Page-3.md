@@ -82,11 +82,11 @@ sftp> bye
  
  # Environment Modules
 
-Managing dependencies in a cluster environment is crucial for ensuring that applications run smoothly and consistently across various compute nodes. In Kuria cluster we uses environment modules to manage the dependencies.
+Managing dependencies in a cluster environment is crucial for ensuring that applications run smoothly and consistently across various compute nodes. In DOP-HPC cluster we uses environment modules to manage the dependencies.
 
 **Environment Modules** is a tool used to dynamically modify the user environment in a UNIX-like operating system. It allows users to easily load, unload, and switch between different software packages and their associated environment variables (like PATH, LD_LIBRARY_PATH, etc.). 
 
-Below the list of different environment modules that are currently available in KURIA cluster:
+Below the list of different environment modules that are currently available in DOP-HPC cluster:
 
 ```
 
@@ -120,7 +120,7 @@ Below the list of different environment modules that are currently available in 
    D:  Default Module
    L:  Module is loaded
 ```
-In the Kuria cluster, modules are organized into various categories, including Compilers, Languages, Libraries, and Software. Each category encompasses specific versions of tools, programming languages, and libraries tailored to different tasks and applications. When a module is loaded, the user environment is dynamically modified, allowing applications to run smoothly without conflicts. Here are some essential commands to manage modules:
+In the DOP-HPC cluster, modules are organized into various categories, including Compilers, Languages, Libraries, and Software. Each category encompasses specific versions of tools, programming languages, and libraries tailored to different tasks and applications. When a module is loaded, the user environment is dynamically modified, allowing applications to run smoothly without conflicts. Here are some essential commands to manage modules:
 
 ```
 # Listing Available Modules
