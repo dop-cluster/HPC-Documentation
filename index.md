@@ -35,7 +35,7 @@ A **High-Performance Computing (HPC) cluster** consists of multiple high-speed c
 
 Kuria Cluster is a high-performance computing cluster with a capacity of 40 teraFLOPS, hosted in the [Department of Physics, CUSAT](https://physics.cusat.ac.in/).
 
-<figure style="display: flex; justify-content: center;">
+<figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/schematics_of_kuria_cluster.png"
          alt="CLI" style="width:35%" >
     <figcaption style="text-align: center;">Figure: Schematics of Kuria Cluster</figcaption>
