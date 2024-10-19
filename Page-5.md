@@ -47,9 +47,9 @@ squeue -u your_username
 ```
 
 **Advantages of using Batch Jobs:**
-- *Automated*: Once submitted, the job runs without further interaction.
-- *Scheduled*: Jobs wait in a queue until the cluster allocates the requested resources.
-- *Ideal for long runs*: Jobs that take hours or days can be easily handled in batch mode.
+- Automated: Once submitted, the job runs without further interaction.
+- Scheduled: Jobs wait in a queue until the cluster allocates the requested resources.
+- Ideal for long runs: Jobs that take hours or days can be easily handled in batch mode.
 
 
 > **SLURM JOB ARRAY**

@@ -167,6 +167,7 @@ sbatch slurm_mpi_fib.sh
 This will distribute the calculation of the Fibonacci numbers across the 4 processes. Each process computes a subset of the numbers in parallel, and the results are gathered at the root process.
 
 > **NOTE** 
+>
 > Fibonacci is a recursive problem, and not all parts of the calculation can be easily parallelized. Thus, using MPI to run such problem leads to decline in performance because of large communication overhead of MPI programs.
 
 
