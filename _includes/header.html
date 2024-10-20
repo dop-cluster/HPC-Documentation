@@ -1,5 +1,6 @@
 <header class="site-header" style="background-color: #f5f8ff; padding: 0px; position: sticky; top: 0; left: 0; right: 0; z-index: 1000;">
-  <div class="wrapper" style="padding-top: 0px;"> <!-- Adjust padding based on your header height -->
+  <!-- <div class="wrapper" style="padding-top: 0px;"> Adjust padding based on your header height -->
+  <div class="wrapper" style="display: flex; justify-content: space-between; align-items: center; padding-top: 0px;"> 
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="color: #2568e9; font-weight: bold; font-size: 1.5em;">
       {{ site.title | escape }}
     </a>
@@ -15,7 +16,8 @@
           </span>
         </label>
 
-        <div class="trigger">
+        <!-- <div class="trigger"> -->
+        <div class="trigger" style="display: flex; gap: 15px;">
           {% for path in site.pages %}
             {% if path.title %}
             <a class="page-link" href="{{ path.url | relative_url }}" style="color: #2568e9; font-weight: bold; margin-left: 15px; text-decoration: none;">
