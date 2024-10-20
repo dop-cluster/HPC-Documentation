@@ -10,7 +10,7 @@ DOP-HPC cluster uses Rocky Linux as its operating system, which the user can acc
 
 
 Here : 
-* test:  indicates the Username
+* testuser:  indicates the Username
 * master: indicates the Hostname (node in which user is working on)
 * ~ : indicates the working directory. Specifically, ~ denotes the home directory.
 * $ : indicates the system is ready to take input. Sometimes denoted by “>”.
