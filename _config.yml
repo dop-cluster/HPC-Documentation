@@ -14,9 +14,10 @@ include:
 
 
 titles_from_headings:
-  enabled:     true
+  enabled:     False
   strip_title: true
   collections: false
+
 
 
 plugins:
