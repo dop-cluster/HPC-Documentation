@@ -17,7 +17,7 @@
         </label>
 
         <!-- <div class="trigger"> -->
-        <div class="trigger" style="display: flex; flex-wrap: nowrap; gap: 15px;">
+        <div class="trigger" style="display: flex; justify-content: space-between; width: 100%; gap: 15px;">
           {% for path in site.pages %}
             {% if path.title %}
             <a class="page-link" href="{{ path.url | relative_url }}" style="color: #2568e9; font-weight: bold; margin-left: 15px; text-decoration: none;">
