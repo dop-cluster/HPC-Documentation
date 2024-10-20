@@ -9,11 +9,15 @@ description: >
   Documentation for using the HPC cluster facility at the Department of Physics, Cochin University of Science and Technology, India. 
   It covers basic Linux commands, SLURM job management, and parallel programming using Python, enabling users to effectively utilize the cluster's resources.
 
+include:
+  - assets/css/custom.css
+
 
 titles_from_headings:
   enabled:     true
   strip_title: true
   collections: false
+
 
 plugins:
   - jekyll-feed
