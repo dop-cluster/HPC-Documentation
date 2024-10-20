@@ -14,7 +14,7 @@ include:
 
 
 titles_from_headings:
-  enabled:     False
+  enabled:     true
   strip_title: true
   collections: false
 
