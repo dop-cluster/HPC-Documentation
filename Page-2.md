@@ -4,7 +4,7 @@ DOP-HPC cluster uses Rocky Linux as its operating system, which the user can acc
 
 <figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/CLI.png"
-         alt="CLI" style="width:30%" >
+         alt="CLI" style="width:50%" >
     <figcaption>  figure: Command Line Interface
 </figcaption></figure>
 
