@@ -28,6 +28,9 @@ python my_script.py
 
 The above job script instructs SLURM to run the Python program `myscript.py` as a single task utilizing 4 CPU cores. The job is named `batch_job`, and the output and error logs will be generated in the directory where `myscript.py` is located. These logs will be saved as `output_<job_id>.log` and `error_<job_id>.log`, where `<job_id>` is the unique identifier assigned to the job.
 
+> **NOTE**
+> To run code on a GPU in a SLURM-based cluster, you must specify the required GPU resources in your job script using the #SBATCH --gres=gpu:<num> directive. At present, DOP-HPC cluster have 2 GPU cards.
+
 More details about SLURM Directives and Environment variables that can be used in SLURM script is available at their [documentation](https://slurm.schedmd.com/sbatch.html).
 
 2. #### Submiting a job to a cluster
