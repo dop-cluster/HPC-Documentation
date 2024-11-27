@@ -29,7 +29,7 @@ Distributed memory parallelism is achieved by means of process. A process is an 
 
 > Intuitatively, a process is like a full program running in its own memory space, a thread is more like a smaller task or part of that program
 
-Common libraries that support MPI programming:
+Common libraries that support Distributed memory parallelism:
 * **OPENMPI** - Supports C,C++ and Fortran.
 *  **MPICH** - Supports C,C++ and Fortran.
 *  **mpi4py** - Library that provides bindings for MPI in Python. It allows programs to ultilize OPENMPI and MPICH functionalities.
