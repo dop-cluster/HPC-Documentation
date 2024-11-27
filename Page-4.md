@@ -11,7 +11,7 @@ SLURM is composed of 4 components:
     <img src="./images/slurm.gif"
          alt="CLI" style="width:60%" >
     <figcaption> 
- Figure: Command Line Interface 
+ Figure: SLURM components
 (<a href="https://slurm.schedmd.com/quickstart.html" target="_blank">source</a>)
 </figcaption></figure>
 
