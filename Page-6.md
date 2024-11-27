@@ -9,9 +9,9 @@ A model of parallel computing where computational units communicates with each o
 
 Threads are one-way to achieve shared memory parallelism. In simple words, thread represent a sequence of instructions that cpus can execute independently. A thread have its own program counter that keeps track of instructions to be executed, system register to hold current working variables, and stack containing the execution history. A thread shares with its peer threads few information like code segment, data segment and open files. When one thread alters a code segment memory item, all other threads see that.
 
-Common Libraries that supports multithreading are: 
+Common libraries that supports shared memory parallelism are: 
 * **OpenMP** -  Used in C/C++ and Fortran.
-* **Threading** module in Pthon.
+* **Threading** module in Python.
 *  **Multiprocessing** module in Python.
 <figure style="display: flex; flex-direction: column; align-items: center;">
     <img src="./images/concept_of_threads.png"
